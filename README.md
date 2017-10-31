@@ -1,6 +1,6 @@
 # Ubuntu SSH
 
-Clear Ubuntu 16.04 with OpenSSH service run on Supervisor. Ready for another experiments.
+Clear Ubuntu 16.04 with OpenSSH service run under Supervisor. Ready for another experiments.
 
 SSH    - root/root
 
