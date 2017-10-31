@@ -50,7 +50,7 @@ RUN apt-get autoremove -y
 EXPOSE 22
 
 # Start script
-RUN echo "#!/bin/bash"			   >> /startup.sh
+RUN echo "#!/bin/bash"             >> /startup.sh
 RUN echo "/usr/bin/supervisord -n" >> /startup.sh
 
 CMD ["sh", "/startup.sh"]
